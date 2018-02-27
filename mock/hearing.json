@@ -1,0 +1,25 @@
+[
+	{
+		"name":"banner",
+		"data":[
+			{"id":"1","title":"情满人间的温馨故事","banner":"img/hearing_banner1.png"},
+			{"id":"2","title":"好诗献给你","banner":"img/hearing_banner2.png"},
+			{"id":"3","title":"甜蜜清新英文歌曲","banner":"img/hearing_banner3.png"}
+		]
+	},
+	{
+		"name":"list",
+		"data":[
+			{"id":"1","title":"吹走它1","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"2","title":"吹走它2","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"3","title":"吹走它3","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"4","title":"吹走它4","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"5","title":"吹走它5","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"6","title":"吹走它6","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"7","title":"吹走它7","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"8","title":"吹走它8","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+			{"id":"9","title":"吹走它9","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"},
+		  	{"id":"10","title":"吹走它10","img":"img/hearing_list1.png","time":"2分38秒","src":"经济学人"}
+		]
+	}
+]

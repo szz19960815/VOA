@@ -1,0 +1,121 @@
+.box{
+    width: 100%;
+    height: 9rem;
+    text-align: center;
+    
+    img{
+        width: 100%;
+        height: 9rem;
+    }  
+}
+
+.hearing_head{
+    margin: 0 !important;
+    padding-left: 0.93rem;
+    padding-right: 0.93rem;
+        
+    
+    >h1{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.slider-pager{
+    text-align: right !important;
+    right: 0.9rem !important;
+    
+    .slider-pager-page{
+        color: white;
+        opacity: 0.7 !important;
+    }
+    .active{
+        color: gray;
+        opacity: 1 !important;
+    }
+}
+
+.hearing_groom{
+    width: 94% !important;
+    height: 2.2rem !important;
+    margin: 0 auto;
+    margin-top: 1.2667rem ;
+    
+    .button{
+        width: 48% !important;
+        height: 2.2rem !important;
+        padding: 0 !important;
+        font-size: 0.8rem !important;
+        border-radius: 0.5rem;
+    }
+    
+    .left_btn{float: left;}
+    .right_btn{float: right;}
+}
+
+
+.hearing_list{
+    height: 2.733rem;
+    width: 94%;
+    text-align: left;
+    margin:0 auto;
+    margin-top: 0.25rem;
+    
+    h2{
+        width: 100%;
+        height: 100%;
+        font-weight: normal !important;
+        line-height: 2.733rem;
+        font-size: 0.8rem !important;
+    }
+}
+
+.card{
+    height: 5.733rem !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    
+    >a{
+        padding: 0 !important;
+        display: flex;
+        justify-content: space-between;
+        width: 94%;
+        height: 100%;
+        align-items: center;
+        
+        >img{
+            width: 30%;
+            height: 70%;
+        }
+    }
+    
+    .hearing_info{
+        width: 67%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        float:right
+        
+        >h2{
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap !important;
+            font-weight: normal !important;
+            font-size: 0.75rem !important;
+        }
+        
+        >p{
+            height: 2.5rem;
+            width: 100%;
+            margin-top: 0.4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.4666rem !important;
+        }
+    }
+}

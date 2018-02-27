@@ -1,0 +1,33 @@
+<ion-view>
+	<ion-header-bar align-title="left" class="bar-positive" ng-class="{H_title:true}">
+		<h1 class="title H_title" ng-class="{H_title:true}">
+			<div class="buttons" style="height: 100%; width: 1rem;">
+				<i class="ion ion-ios-arrow-back"  style="font-size: 1.5rem;" ng-click="back()"></i>
+			</div>
+		</h1>
+		<div class="buttons right_btn">
+			<i class="ion ion-navicon" style="font-size: 1.5rem;position: relative;width: 1rem;height: 1rem;top: -0.1rem;">
+				<input id="list" type="checkbox" style="width: 1.2rem; height: 1.2rem;position: absolute;top: 0;left: 0;opacity: 0;" ng-model="hearingList" />
+			</i>
+		</div>
+		<div class="buttons" style="position:absolute;right: 3.7rem;top:0.6rem">
+			<i class="ion ion-edit" style="font-size: 1rem;"></i>
+		</div>
+	</ion-header-bar>
+	<div class="hearingLing" ng-if="hearingList">
+		<ul id="list" ng-if="hearingList">
+			<li><label for="list"><i class="con ion-ios-close-empty" style="font-size: 1.8rem;" ></i></label>放送列表 <span></span></li>
+			<li ng-repeat="list in videoList track by $index">{{list}}</li>
+		</ul>
+	</div>
+	<div id="video">
+		<div class="card" style="height: 2rem !important;line-height: 2rem !important; border-bottom: 0.2rem solid #DEDEDE">{{videos.title}}</div>
+		<video width="100%" height="" id="videoPlay" controls="controls" src="{{videos.video}}" poster="{{videos.banner}}">
+			当前浏览器不支持 该视频
+		</video>
+	</div>
+	<ion-content>
+		<div id="spaceBox"></div>
+		<p class="item item-text-wrap" style="flex: 1;padding: 0 1rem;" id="videoVersion"></p>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,37 @@
+<ion-view>
+	<ion-header-bar align-title="left" class="bar-positive" ng-class="{H_title:true}">
+		<h1 class="title H_title" ng-class="{H_title:true}">视频</h1>
+		<div class="buttons right_btn">
+			<i class="ion ion-stats-bars"></i>
+		</div>
+		<div class="buttons" style="position:absolute;right: 3.7rem;top:0.6rem">
+			<i class="ion ion-ios-keypad-outline"></i>
+		</div>
+	</ion-header-bar>
+	<ion-content>
+		<!--下拉刷新-->
+		<ion-refresher pulling-text="刷新" on-refresh="doRefreshVideo()" >
+		</ion-refresher>
+        <!--
+        	作者：1316225239@qq.com
+        	时间：2018-01-18
+        	描述：列表卡片
+        -->
+        <div class="hearing_list">
+        	<h2>VOA视频教学</h2>
+        </div>
+        <div class="card" ng-repeat="info in videoList track by $index">
+			<a class="item item-text-wrap" href="#/video_info/{{info.id}}" >
+				<div class="hearing_info">
+					<h2>{{info.title}}</h2>
+					<p>
+						<span style="margin-top: 2rem;">{{info.word}}</span>
+					</p>
+				</div>
+				<img src="{{info.img}}"/>
+			</a>
+		</div>
+		<ion-infinite-scroll on-infinite="loadMoreVideo()" distance="1%">
+		</ion-infinite-scroll>
+	</ion-content>
+</ion-view>

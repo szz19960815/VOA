@@ -1,0 +1,22 @@
+<ion-view>
+	<div class="bar bar-header bar-light">
+		<i class="ion ion-chevron-left" ng-click="back()"></i>
+	  	<h1 class="title">注册</h1>
+	</div>
+	<ion-content ng-controller="register">
+		<div class="list list-inset">
+		  <label class="item item-input" id="user">
+		    <input type="text" placeholder="请输入手机号" ng-model="name" ng-change="users()">
+		  </label>
+		  <label class="item item-input" id="psw">
+		    <input type="password" placeholder="请输入密码" ng-model="psw">
+		  </label>
+		  <label class="item item-input" id="repsw">
+		    <input type="password" placeholder="再次输入密码" ng-model="repsw">
+		  </label>
+		</div>
+		<button class="button button-block button-positive" ng-click="register()">
+		  注册
+		</button>
+	</ion-content>
+</ion-view>

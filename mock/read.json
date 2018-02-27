@@ -1,0 +1,94 @@
+{
+	"name": "list",
+	"data": [
+		{
+			"id": "1",
+			"title": "买车更便利 中国进入网上购车时代1",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "2",
+			"title": "买车更便利 中国进入网上购车时代2",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "3",
+			"title": "买车更便利 中国进入网上购车时代3",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "4",
+			"title": "买车更便利 中国进入网上购车时代4",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "5",
+			"title": "买车更便利 中国进入网上购车时代5",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},{
+			"id": "6",
+			"title": "买车更便利 中国进入网上购车时代6",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "7",
+			"title": "买车更便利 中国进入网上购车时代7",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "8",
+			"title": "买车更便利 中国进入网上购车时代8",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "9",
+			"title": "买车更便利 中国进入网上购车时代9",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		},
+		{
+			"id": "10",
+			"title": "买车更便利 中国进入网上购车时代10",
+			"img": "img/read1.png",
+			"time": "2018-01-18",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/read.txt",
+			"src":"VOA英语学习网"
+		}
+	]
+}

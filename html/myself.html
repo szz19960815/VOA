@@ -1,0 +1,48 @@
+<ion-view>
+	<ion-header-bar align-title="left" class="bar-positive" ng-class="{H_title:true}">
+		<h1 class="title H_title" ng-class="{H_title:true}">我</h1>
+		<div class="buttons right_btn">
+			<i class="ion ion-ios-bell-outline"></i>
+		</div>
+	</ion-header-bar>
+	<ion-content>
+		<div class="card" style="height: 4rem !important;">
+			<div class="item item-text-wrap" style="width: 100% !important;height: 100% !important;" ng-click="toLogin()">
+				<a id="nologin">
+					<i class="ion ion-person"></i>
+				</a>
+				<span id="isLogin">您还未登录呢</span>
+			</div>
+		</div>
+		<div class="list" id="myselft">
+
+			<a href="#" class="item item-icon-left" style="height: 3rem !important;line-height: 1.5rem !important;">
+				<i class="icon ion-android-alarm-clock"></i> 
+				定时关闭
+				<i class="ion ion-chevron-right" style="float: right;height: 3rem !important;line-height: 1.5rem !important;"></i>
+			</a>
+
+			<a href="#" class="item item-icon-left" style="height: 3rem !important;line-height: 1.5rem !important;">
+				<i class="icon ion-android-time"></i> 
+				历史记录
+				<i class="ion ion-chevron-right" style="float: right;height: 3rem !important;line-height: 1.5rem !important;"></i>
+			</a>
+
+			<a href="#" class="item item-icon-left" style="height: 3rem !important;line-height: 1.5rem !important;">
+				<i class="icon ion-android-favorite-outline"></i> 
+				我的收藏
+				<i class="ion ion-chevron-right" style="float: right;height: 3rem !important;line-height: 1.5rem !important;"></i>
+			</a>
+
+			<a href="#" class="item item-icon-left" style="height: 3rem !important;line-height: 1.5rem !important;">
+				<i class="icon ion-archive" style="font-weight: bold;"></i> 
+				离线缓存
+				<i class="ion ion-chevron-right" style="float: right;height: 3rem !important;line-height: 1.5rem !important;"></i>
+			</a>
+
+		</div>
+		<button class="button button-block button-positive" ng-click="exit()">
+		  注销
+		</button>
+	</ion-content>
+</ion-view>

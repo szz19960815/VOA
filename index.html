@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--<link href="https://cdn.bootcss.com/ionic/1.3.2/css/ionic.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="lib/css/ionic.css" />
+    <link rel="stylesheet" href="lib/css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/mobile_Public.css" />
+    <link rel="stylesheet" href="dist/index.css" />
+    <link rel="stylesheet" href="dist/hearing.css" />
+    <link rel="stylesheet" href="dist/hearingInfo.css" />
+    <link rel="stylesheet" href="dist/video.css" />
+    <link rel="stylesheet" href="dist/myself.css" />
+    <title>VOA学英语</title>
+    <!--<script src="https://cdn.bootcss.com/ionic/1.3.2/js/ionic.bundle.js"></script>-->
+    <script type="text/javascript" src="lib/js/ionic.bundle.js" ></script>
+</head>
+<body>
+	
+	<div ng-app="index" ng-controller="content">
+		<!--
+        	作者：1316225239@qq.com
+        	时间：2018-01-16
+        	描述：内容切换区
+        -->
+		<ion-nav-view>
+			<ion-content style="position: relative;">
+				
+			</ion-content>
+			<!--
+	        	作者：1316225239@qq.com
+	        	时间：2018-01-16
+	        	描述：底部
+	        -->
+			<ion-footer-bar ng-style="footerStyle" ng-class="{footer:true}">
+				<div class="tabs">
+					<a class="tab-item" href="#/hearing" ng-class="{hearing_btn:foot_style1}" ng-click="choice1()">
+						<i class="icon-font ion-home"></i>
+						听力
+					</a>
+					<a class="tab-item" href="#/video" ng-class="{video_btn:foot_style2}" ng-click="choice2()">
+						<i class="icon-font ion-videocamera"></i>
+						视频
+					</a>
+					<a class="tab-item" href="#/read" ng-class="{read_btn:foot_style3}" ng-click="choice3()">
+						<i class="icon-font ion-ios-book"></i>
+						阅读
+					</a>
+					<a class="tab-item" href="#/myself" ng-class="{myself_btn:foot_style4}" ng-click="choice4()">
+						<i class="icon-font ion-person"></i>
+						我
+					</a>
+				</div>
+			</ion-footer-bar>
+		</ion-nav-view>
+		
+	</div>
+	
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/hearing_info.js" ></script>
+	<script type="text/javascript" src="js/video.js" ></script>
+	<script type="text/javascript" src="js/video_info.js" ></script>
+	<script type="text/javascript" src="js/read.js" ></script>
+	<script type="text/javascript" src="js/read_info.js" ></script>
+	<script type="text/javascript" src="js/myself.js" ></script>
+</body>
+</html>

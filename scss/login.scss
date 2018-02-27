@@ -1,0 +1,50 @@
+.bar{
+    border-bottom: 0.05rem solid #DDDDDD !important;
+    height: 2.4rem !important;
+    line-height: 2.4rem !important;
+    
+    h1{
+        color: #7e7e7e !important;
+        height: 2.4rem !important;
+        line-height: 2.4rem !important;
+        text-align: left !important;
+        margin-left: 3rem !important;
+    }
+    
+    i{
+        height: 1.8rem !important;
+        width: 1.8rem !important;
+        line-height: 1.8rem !important;
+        text-align: center;
+    }
+}
+
+.list-inset{
+    top: 4.6rem !important;
+    
+    .item-input{
+        height: 1.6333rem !important;
+        margin-bottom: 1.6333rem !important;
+        border: none !important;
+        border-bottom: 0.05rem solid #727272 !important;
+    }
+}
+
+.button-block{
+    margin: 0 auto;
+    margin-top: 4.6rem !important;
+    width: 94% !important;
+}
+
+#domain{
+    margin-top: 1rem !important;
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7333rem;
+    
+    a{
+        color: #949494 !important;
+    }
+}

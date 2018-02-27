@@ -1,0 +1,30 @@
+<ion-view>
+	<ion-header-bar align-title="left" class="bar-positive" ng-class="{H_title:true}">
+		<h1 class="title H_title" ng-class="{H_title:true}">
+			<div class="buttons" style="height: 100%; width: 1rem;">
+				<i class="ion ion-ios-arrow-back" style="font-size: 1.5rem;" ng-click="back()"></i>
+			</div>
+		</h1>
+		<div class="buttons right_btn">
+			<i class="ion ion-navicon" style="font-size: 1.5rem;position: relative;width: 1rem;height: 1rem;top: -0.1rem;">
+				<input id="list" type="checkbox" style="width: 1.2rem; height: 1.2rem;position: absolute;top: 0;left: 0;opacity: 0;" ng-model="hearingList" />
+			</i>
+		</div>
+		<div class="buttons" style="position:absolute;right: 3.7rem;top:0.6rem">
+			<i class="ion ion-edit" style="font-size: 1rem;"></i>
+		</div>
+	</ion-header-bar>
+	<div class="hearingLing" ng-if="hearingList">
+		<ul id="list" ng-if="hearingList">
+			<li><label for="list"><i class="con ion-ios-close-empty" style="font-size: 1.8rem;" ></i></label>放送列表 <span></span></li>
+			<li ng-repeat="list in lists track by $index" >{{list}}</li>
+		</ul>
+	</div>
+	<ion-content>
+		  <p class="item item-text-wrap" id="hearingInfo" style="flex: 1;padding: 0 1rem;">
+		  </p>
+	</ion-content>
+	<audio controls="controls" controlsList="nodownload" loop="loop">
+		<source src="music/japan-gets-false-missile-warnings-days-after-hawaii.mp3" type="audio/mp3">
+	</audio>
+</ion-view>

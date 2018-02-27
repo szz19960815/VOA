@@ -1,0 +1,94 @@
+{
+	"name": "list",
+	"data": [
+		{
+			"id": "1",
+			"title": "Everyday Grammar TV1",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "2",
+			"title": "Everyday Grammar TV2",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "3",
+			"title": "Everyday Grammar TV3",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "4",
+			"title": "Everyday Grammar TV4",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "5",
+			"title": "Everyday Grammar TV5",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},{
+			"id": "6",
+			"title": "Everyday Grammar TV6",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "7",
+			"title": "Everyday Grammar TV7",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "8",
+			"title": "Everyday Grammar TV8",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "9",
+			"title": "Everyday Grammar TV9",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		},
+		{
+			"id": "10",
+			"title": "Everyday Grammar TV10",
+			"img": "img/video_list1.png",
+			"word": "Check in, Check up",
+			"video": "video/check-in-check-up.mp4",
+			"version":"mock/video.txt",
+			"banner":"img/video1.png"
+		}
+	]
+}

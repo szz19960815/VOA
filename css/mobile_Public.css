@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*reset*/
+body,button,input,select,textarea{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei";}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0; padding:0;-webkit-text-size-adjust:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+em,i{font-style:normal;}
+li{list-style:none;}
+img{border:0;}
+input,img{vertical-align:middle;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+a{text-decoration:none;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;background-color:#f3f5f7 !important;font-size: 20px !important;}
+a,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none; -webkit-font-smoothing:antialiased}
+.hidden{ display:none !important;transition: .2s linear;-webkit-transition: .2s linear;}
+
+
+@keyframes fan{
+	0%{transform:rotateY(0)}
+	100%{ transform:rotateY(180deg)}
+}
+
+html{
+	font-size: 20px;
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 20px !important; } }
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 20.83px !important; } }
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 22.22px !important; } }
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 22.89px !important; } }
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 23px !important; } }
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 35.56px !important; } }
+
+
+/* ipad横屏 */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+html,body{font-size: 22px !important;}
+}
+
+/* ipad竖屏 */
+@media (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+html,body{font-size: 26px !important;}
+}
+

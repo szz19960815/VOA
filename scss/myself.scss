@@ -1,0 +1,32 @@
+#nologin{
+    float: left;
+    width: 2.8rem;
+    height: 2.8rem;
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #9a9a9a;
+    text-align: center;
+    border: 0.2rem solid #9A9A9A;
+    
+    i{
+        width: 2.4rem;
+        height: 2.6rem;
+        font-size: 2.6rem !important;
+        color: #d7d7d7;
+    }
+    
+}
+
+#isLogin{
+    display: inline-block;
+    height: 100% !important;
+    line-height: 2.8rem !important;
+    margin-left: 0.6rem;
+    font-size: 0.666rem;
+}
+
+.button-block{
+    width: 94% !important;
+    margin: 0 auto;
+}
